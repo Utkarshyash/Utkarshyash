@@ -1,0 +1,96 @@
+h1{
+	color: #2F4F4F;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size:3.0em;
+	text-align:Center;
+	
+}
+nav{
+	font-family: Open Sans;
+	font-size: 100%;
+	text-align:center;
+}
+nav a{
+	width:7%;
+	display: inline-block;
+	padding:14px;
+	color:#2c3e50;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+nav a:hover{
+	color: Black; transform: scale(1.2);
+}
+img{
+	border-radius:50%;
+	width:25%;
+	float:left;
+	padding-right:10px;
+}
+body{
+	background-color: #fafafa;
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #474747;
+    margin:100px;
+}
+p{
+	font-family:Open Sans;
+	margin-top: 2%;
+	font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    text-align: left;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-top: 8%;
+
+}
+.fa-facebook {
+  background: Black;
+  color: White;
+ }
+ .fa-linkedin {
+  background: Black;
+  color: White;
+ }
+ .fa-twitter {
+  background: Black;
+  color: White;
+ }
+ .fa-instagram {
+  background: Black;
+  color: White;
+ }
+ iframe{
+ 	margin-top: 2%;
+ 	margin-left: 23%;
+ }
+ .fa-facebook:hover{
+	transform: scale(1.2);
+	background-color: rgb(11, 132, 238);
+}
+.fa-twitter:hover{
+   transform: scale(1.2);
+   background-color:rgb(93, 169, 221);
+}
+.fa-linkedin:hover{
+   transform: scale(1.2);
+   background-color: rgb(10, 102, 194);
+}
+.fa-instagram:hover{
+   transform: scale(1.2);
+   background-image: linear-gradient(to bottom left,rgba(154,47,190), rgba(247,204,84));
+				
+}
